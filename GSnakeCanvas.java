@@ -9,19 +9,9 @@ public class GSnakeCanvas {
 	public static int boxWidth = 5;
 	public static int gridHeight = 30;
 	public static int gridWidth = 30;
-
-	/**
-	 * Constructor. Set all of the values.
-	 */
+	
 	public GSnakeCanvas() {
-		//		GSnakeCanvas.boxHeight = 5;
-		//		GSnakeCanvas.boxWidth = 5;
-		//		GSnakeCanvas.gridHeight = 30;
-		//		GSnakeCanvas.gridWidth = 30;
-		// So I accidentally deleted SnakeCanvas, not knowing that I GSnakeMain was relying on that class 
-		// instead of GSnakeCanvas. so I had to switch a few things, make stuff in here static. taa-daa.
 	}
-
 
 	/**
 	 * Draws grid!
@@ -39,4 +29,3 @@ public class GSnakeCanvas {
 	}
 
 }
-
