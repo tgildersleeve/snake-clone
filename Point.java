@@ -59,15 +59,6 @@ public class Point {
 	}
 
 	/**
-	 * method, add point to vector
-	 * @param in
-	 * @return
-	 */
-//	public Point plus(Vector in) {
-//		return new Point(x + in.getDeltaX(), y + in.getDeltaY());
-//	}
-
-	/**
 	 * method, subtract points to make vector
 	 * @param in
 	 * @return
@@ -88,4 +79,3 @@ public class Point {
 
 
 }
-
