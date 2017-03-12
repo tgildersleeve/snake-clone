@@ -21,9 +21,7 @@ public class PTheSnake {
 		snake.add(new Point(GSnakeCanvas.boxWidth*3 , GSnakeCanvas.boxHeight *5));
 		snake.add(new Point(GSnakeCanvas.boxWidth*3 , GSnakeCanvas.boxHeight *4));
 		snake.add(new Point(GSnakeCanvas.boxWidth*3 , GSnakeCanvas.boxHeight *3));
-		//		snake.add(new Point(15 , 25));
-		//		snake.add(new Point(15 , 20));
-		//		snake.add(new Point(15 , 15));
+		
 		this.direction = 0;
 		this.gameOver = false;
 	}
